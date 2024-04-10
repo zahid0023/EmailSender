@@ -4,9 +4,9 @@ Integrating email functionality, such as sending and receiving emails, within a 
 Ensure that your pom.xml (if you're using Maven) or build.gradle (if you're using Gradle) includes the necessary dependencies for JavaMail API and Spring Boot's email support.
 
 For Maven:
-    `<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-mail</artifactId>
+    `<dependency>\n
+    <groupId>org.springframework.boot</groupId>\n
+    <artifactId>spring-boot-starter-mail</artifactId>\n
     </dependency>`
 
 2. Configure Email Properties:
